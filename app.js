@@ -1,8 +1,9 @@
 document.addEventListener("keydown", function(e) {
-  console.log(e.keyCode);
+  var audio = document.querySelector("audio[data-key='" + e.keyCode + "']");
+  if (!audio) return;
   document
     .querySelector("span[data-key='" + e.keyCode + "']")
     .classList.add("playing");
-  var audio = document.querySelector("audio[data-key='" + e.keyCode + "']");
+  console.log(audio);
   audio.play();
 });
