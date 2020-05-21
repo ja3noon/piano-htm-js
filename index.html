@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="container">
+      <span class="key" data-key="65">
+        <div class="letter">A</div>
+        <div class="action">clap</div>
+      </span>
+      <span class="key" data-key="90">
+        <div class="letter">z</div>
+        <div class="action">hihat</div>
+      </span>
+      <span class="key" data-key="69">
+        <div class="letter">e</div>
+        <div class="action">kick</div>
+      </span>
+      <span class="key" data-key="82">
+        <div class="letter">r</div>
+        <div class="action">openhat</div>
+      </span>
+      <span class="key" data-key="84">
+        <div class="letter">t</div>
+        <div class="action">ride</div>
+      </span>
+      <span class="key" data-key="89">
+        <div class="letter">y</div>
+        <div class="action">snare</div>
+      </span>
+      <span class="key" data-key="85">
+        <div class="letter">u</div>
+        <div class="action">tom</div>
+      </span>
+      <span class="key" data-key="73">
+        <div class="letter">i</div>
+        <div class="action">tim</div>
+      </span>
+      <span class="key" data-key="79">
+        <div class="letter">o</div>
+        <div class="action">tink</div>
+      </span>
+    </div>
+    <audio
+      data-key="65"
+      src="http://tipiwiki.free.fr/snd/Battement.wav"
+    ></audio>
+    <audio
+      data-key="90"
+      src="http://www.randomthink.net/labs/html5drums/drumkit/Hi%20Hat%20Long.wav"
+    ></audio>
+    <audio
+      data-key="69"
+      src="http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Free%20Kick%20Sample%202-885-Free-Loops.com.mp3"
+    ></audio>
+    <audio
+      data-key="82"
+      src="http://www.apo33.org/pub/puredata/APO/librairies_PD/recup/patches_obj/theLib/drum-machine/samples/OPHAT1.WAV"
+    ></audio>
+    <audio
+      data-key="84"
+      src="http://dight310.byu.edu/media/audio/FreeLoops.com/1/1/909%20Ride-7941-Free-Loops.com.mp3"
+    ></audio>
+    <audio
+      data-key="89"
+      src="http://www.denhaku.com/r_box/rx11/hi_tune_5.wav"
+    ></audio>
+    <audio data-key="85" src="http://tipiwiki.free.fr/snd/Tamtam2.wav"></audio>
+    <audio
+      data-key="73"
+      src="http://biomediaproject.com/bmp/files/sfx/v2.0.0%20Streaming/Sound%20Effects/MNOLG/Deflect.mp3"
+    ></audio>
+    <audio
+      data-key="79"
+      src="http://www.chiptape.com/chiptape/sounds/medium/getmbs.wav"
+    ></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
